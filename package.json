@@ -1,0 +1,19 @@
+{
+  "name": "bankbros",
+  "version": "1.0.0",
+  "description": "**TEMAT PROJEKTU:** Karty przeciwko ludzkości",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawjjs/bankbros.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pawjjs/bankbros/issues"
+  },
+  "homepage": "https://github.com/pawjjs/bankbros#readme"
+}
