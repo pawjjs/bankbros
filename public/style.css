@@ -193,6 +193,7 @@ a {
 
 .card-stack {
     position: relative;
+    margin-left: 50px;
     width: 310px;
     height: 365px;
 }
@@ -216,9 +217,6 @@ a {
 
     background: #201e1b;
     border: 1px solid #433e38;
-
-    transform: rotate(-4deg);
-    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.3);
 }
 
 .black-card-question {
@@ -257,9 +255,6 @@ a {
 
     background: #f4f1eb;
     color: #292722;
-
-    transform: rotate(7deg);
-    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.25);
 }
 
 .white-card-label {
