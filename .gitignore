@@ -1,32 +1,92 @@
-# System
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# IDE
-.idea/
-.junie/
-.vscode/
-*.iml
-
-# Dependencies
-node_modules/
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
 # Logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js dependencies
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+
+# Node.js tools
+lib-cov
+.lock-wscript
+.npm
+.node_repl_history
+.yarn-integrity
+.pnpm-store/
+
+# Compiled binary addons
+build/Release
 
 # Build output
 dist/
 build/
 coverage/
+out/
+.output/
+
+# Test coverage
+*.lcov
+.nyc_output/
+coverage/
+
+# Framework caches and build files
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.temp/
+.svelte-kit/
+**/.vitepress/dist/
+**/.vitepress/cache/
+.docusaurus/
+.astro/
+.turbo/
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Framework and bundler caches
+.grunt/
+.fusebox/
+.serverless/
+.dynamodb/
+.firebase/
+
+# Next.js
+# public/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint and Stylelint
+.eslintcache
+.stylelintcache
+
+# Yarn v3+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Temporary files
 *.tmp
@@ -34,5 +94,26 @@ coverage/
 *.swp
 *.bak
 
-# OS / editor files
+# npm pack
+*.tgz
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
 *~
+
+# IDEs and editors
+.idea/
+.junie/
+.vscode/
+*.iml
+.vscode-test/
+
+# TernJS
+.tern-port
