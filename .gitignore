@@ -117,3 +117,14 @@ Desktop.ini
 
 # TernJS
 .tern-port
+
+# Lokalne bazy SQLite
+*.db
+# Pliki pomocnicze SQLite
+*.db-wal
+*.db-shm
+*.db-journal
+#
+Alternatywne rozszerzenia
+*.sqlite
+*.sqlite3
